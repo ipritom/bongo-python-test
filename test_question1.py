@@ -26,6 +26,9 @@ class TestQuestion(unittest.TestCase):
         self.assertEqual(capturedOutput, expected_output)
 
     def test_type(self):
+        '''
+        Input: Unexpected Datatype
+        '''
         
         with self.assertRaises(TypeError):
             question1.print_depth([33,4,5,1])

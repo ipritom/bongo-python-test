@@ -50,6 +50,9 @@ class TestQuestion(unittest.TestCase):
 
 
     def test_type(self):
+        '''
+        Input: Unexpected Datatype
+        '''
         #creating tree 1
         node1 = Node(1)
         node2 = Node(2,node1)
